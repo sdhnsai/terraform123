@@ -1,9 +1,4 @@
-/*provider "aws" {
-  region     = "us-west-2"
-  access_key = "AKIAWS4H3H53LSOGVUM3"
-  secret_key = "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"
-}
-*/
+
 resource "aws_eip" "lb" {
   vpc      = true
 }
